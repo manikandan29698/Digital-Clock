@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    border: 3px solid white;
+    padding: 5rem;
+    font-size: 4rem;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+}
+
+#container p {
+    margin-left: 3em;
+}
+
+#ampm {
+    align-self: flex-end;
+    font-size: 1em;
+}
